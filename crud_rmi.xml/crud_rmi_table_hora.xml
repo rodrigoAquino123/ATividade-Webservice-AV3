@@ -1,0 +1,26 @@
+        <!-- Tabela hora -->
+        <table name="hora">
+            <column name="id">1</column>
+            <column name="horas">12</column>
+            <column name="minutos">34</column>
+        </table>
+        <table name="hora">
+            <column name="id">2</column>
+            <column name="horas">15</column>
+            <column name="minutos">38</column>
+        </table>
+        <table name="hora">
+            <column name="id">3</column>
+            <column name="horas">9</column>
+            <column name="minutos">12</column>
+        </table>
+        <table name="hora">
+            <column name="id">4</column>
+            <column name="horas">17</column>
+            <column name="minutos">49</column>
+        </table>
+        <table name="hora">
+            <column name="id">5</column>
+            <column name="horas">10</column>
+            <column name="minutos">7</column>
+        </table>

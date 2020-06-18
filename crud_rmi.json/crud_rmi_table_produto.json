@@ -1,0 +1,39 @@
+,{
+    "type": "table",
+    "name": "produto",
+    "database": "crud_rmi",
+    "data": 
+[
+{
+    "id": "1",
+    "descricao": "Calça",
+    "preco": "150.00",
+    "quantidade": "20"
+},
+{
+    "id": "2",
+    "descricao": "Camisa",
+    "preco": "50.00",
+    "quantidade": "20"
+},
+{
+    "id": "3",
+    "descricao": "Meia",
+    "preco": "6.00",
+    "quantidade": "50"
+},
+{
+    "id": "4",
+    "descricao": "Tênis",
+    "preco": "285.75",
+    "quantidade": "10"
+},
+{
+    "id": "5",
+    "descricao": "Cueca",
+    "preco": "10.00",
+    "quantidade": "80"
+}
+]
+
+}

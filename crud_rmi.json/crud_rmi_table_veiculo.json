@@ -1,0 +1,39 @@
+,{
+    "type": "table",
+    "name": "veiculo",
+    "database": "crud_rmi",
+    "data": 
+[
+{
+    "id": "1",
+    "marca": "Fiat",
+    "modelo": "Uno",
+    "placa": "NNE2354"
+},
+{
+    "id": "2",
+    "marca": "Volkswagen",
+    "modelo": "Gol",
+    "placa": "NUM6657"
+},
+{
+    "id": "3",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "placa": "NEO8720"
+},
+{
+    "id": "4",
+    "marca": "Renault",
+    "modelo": "Qwid",
+    "placa": "OPL2029"
+},
+{
+    "id": "5",
+    "marca": "Hyundai",
+    "modelo": "HB20",
+    "placa": "CPR3531"
+}
+]
+
+}

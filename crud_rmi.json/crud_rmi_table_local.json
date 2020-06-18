@@ -1,0 +1,34 @@
+,{
+    "type": "table",
+    "name": "local",
+    "database": "crud_rmi",
+    "data": 
+[
+{
+    "id": "1",
+    "cliente": "Amazonas Importados",
+    "endereco": "Rua São José, 1610"
+},
+{
+    "id": "2",
+    "cliente": "2A Importados",
+    "endereco": "Rua Cândido Mendes, 1206"
+},
+{
+    "id": "3",
+    "cliente": "Dular Free Shop",
+    "endereco": "Avenida Padre Júlio Maria Lombaerd, 437"
+},
+{
+    "id": "4",
+    "cliente": "Lojas Marisa",
+    "endereco": "Amapá Garden Shopping - Rodovia Juscelino Kubitschek"
+},
+{
+    "id": "5",
+    "cliente": "Renner",
+    "endereco": "Amapá Garden Shopping - Rodovia Juscelino Kubitschek"
+}
+]
+
+}

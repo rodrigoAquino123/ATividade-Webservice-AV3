@@ -1,0 +1,31 @@
+        <!-- Tabela produto -->
+        <table name="produto">
+            <column name="id">1</column>
+            <column name="descricao">Calça</column>
+            <column name="preco">150.00</column>
+            <column name="quantidade">20</column>
+        </table>
+        <table name="produto">
+            <column name="id">2</column>
+            <column name="descricao">Camisa</column>
+            <column name="preco">50.00</column>
+            <column name="quantidade">20</column>
+        </table>
+        <table name="produto">
+            <column name="id">3</column>
+            <column name="descricao">Meia</column>
+            <column name="preco">6.00</column>
+            <column name="quantidade">50</column>
+        </table>
+        <table name="produto">
+            <column name="id">4</column>
+            <column name="descricao">Tênis</column>
+            <column name="preco">285.75</column>
+            <column name="quantidade">10</column>
+        </table>
+        <table name="produto">
+            <column name="id">5</column>
+            <column name="descricao">Cueca</column>
+            <column name="preco">10.00</column>
+            <column name="quantidade">80</column>
+        </table>

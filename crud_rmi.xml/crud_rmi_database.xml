@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Tempo de geração: 29-Maio-2020 às 08:01
+- Versão do servidor: 10.4.11-MariaDB
+- versão do PHP: 7.4.6
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="crud_rmi" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="data">
+                CREATE TABLE `data` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `dia` int(2) DEFAULT NULL,
+                  `mes` int(2) DEFAULT NULL,
+                  `ano` int(4) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="hora">
+                CREATE TABLE `hora` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `horas` int(2) DEFAULT NULL,
+                  `minutos` int(2) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="local">
+                CREATE TABLE `local` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `cliente` varchar(255) DEFAULT NULL,
+                  `endereco` varchar(255) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="produto">
+                CREATE TABLE `produto` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `descricao` varchar(255) DEFAULT NULL,
+                  `preco` double(11,2) DEFAULT NULL,
+                  `quantidade` int(11) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="veiculo">
+                CREATE TABLE `veiculo` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `marca` varchar(255) DEFAULT NULL,
+                  `modelo` varchar(255) DEFAULT NULL,
+                  `placa` varchar(255) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Banco de dados: 'crud_rmi'
+    -->
+    <database name="crud_rmi">

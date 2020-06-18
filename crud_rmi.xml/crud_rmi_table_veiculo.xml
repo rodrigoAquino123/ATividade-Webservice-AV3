@@ -1,0 +1,31 @@
+        <!-- Tabela veiculo -->
+        <table name="veiculo">
+            <column name="id">1</column>
+            <column name="marca">Fiat</column>
+            <column name="modelo">Uno</column>
+            <column name="placa">NNE2354</column>
+        </table>
+        <table name="veiculo">
+            <column name="id">2</column>
+            <column name="marca">Volkswagen</column>
+            <column name="modelo">Gol</column>
+            <column name="placa">NUM6657</column>
+        </table>
+        <table name="veiculo">
+            <column name="id">3</column>
+            <column name="marca">Chevrolet</column>
+            <column name="modelo">Onix</column>
+            <column name="placa">NEO8720</column>
+        </table>
+        <table name="veiculo">
+            <column name="id">4</column>
+            <column name="marca">Renault</column>
+            <column name="modelo">Qwid</column>
+            <column name="placa">OPL2029</column>
+        </table>
+        <table name="veiculo">
+            <column name="id">5</column>
+            <column name="marca">Hyundai</column>
+            <column name="modelo">HB20</column>
+            <column name="placa">CPR3531</column>
+        </table>

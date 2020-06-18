@@ -1,0 +1,34 @@
+,{
+    "type": "table",
+    "name": "hora",
+    "database": "crud_rmi",
+    "data": 
+[
+{
+    "id": "1",
+    "horas": "12",
+    "minutos": "34"
+},
+{
+    "id": "2",
+    "horas": "15",
+    "minutos": "38"
+},
+{
+    "id": "3",
+    "horas": "9",
+    "minutos": "12"
+},
+{
+    "id": "4",
+    "horas": "17",
+    "minutos": "49"
+},
+{
+    "id": "5",
+    "horas": "10",
+    "minutos": "7"
+}
+]
+
+}

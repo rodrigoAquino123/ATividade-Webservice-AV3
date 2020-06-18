@@ -1,0 +1,26 @@
+        <!-- Tabela local -->
+        <table name="local">
+            <column name="id">1</column>
+            <column name="cliente">Amazonas Importados</column>
+            <column name="endereco">Rua São José, 1610</column>
+        </table>
+        <table name="local">
+            <column name="id">2</column>
+            <column name="cliente">2A Importados</column>
+            <column name="endereco">Rua Cândido Mendes, 1206</column>
+        </table>
+        <table name="local">
+            <column name="id">3</column>
+            <column name="cliente">Dular Free Shop</column>
+            <column name="endereco">Avenida Padre Júlio Maria Lombaerd, 437</column>
+        </table>
+        <table name="local">
+            <column name="id">4</column>
+            <column name="cliente">Lojas Marisa</column>
+            <column name="endereco">Amapá Garden Shopping - Rodovia Juscelino Kubitschek</column>
+        </table>
+        <table name="local">
+            <column name="id">5</column>
+            <column name="cliente">Renner</column>
+            <column name="endereco">Amapá Garden Shopping - Rodovia Juscelino Kubitschek</column>
+        </table>
